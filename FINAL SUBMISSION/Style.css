@@ -1,0 +1,554 @@
+img /*Logos on the NavBar*/
+{ 
+  display: block;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+.title 
+{
+   position: absolute;
+   right: 450px;
+   width: 600px;
+   border: 3px solid red;
+   padding: 10px;
+   font-size: 26px;
+   text-align: center;
+   margin-top: 50px; 
+   color:red;
+ } 
+ .navbar
+ { 
+
+   background-color: hsla(132,32%,51%,0.2);
+   width: 100%; 
+   text-align: center;
+   table-layout: fixed;
+   height: 10px; 
+ }
+
+.taskbar th
+ { height: 10px; }
+
+body
+ { 
+   background-size: cover;
+   background-color: red; 
+   background-image: linear-gradient(to right, lightblue , lightyellow, pink);
+ } 
+
+a 
+ { 
+   text-decoration: none;
+   color: #000;
+ }
+
+a:hover
+ { color: #f4f4f4; }
+
+a:active
+ { color: lightgrey; }
+
+.info
+ { 
+   color: black;
+   text-align: center;
+   font-family:'Quicksand';
+ }
+ .flex-category /*Medicine list*/
+ {
+  display:flex;
+  flex-direction: column;
+  background-color: none;
+}
+
+.flex-category div 
+{
+  background-color: none;
+  color: black;
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  font-family:'Quicksand';
+}
+
+ .flex-covid /*Covid Services*/
+ {
+  display:flex;
+  flex-direction: column;
+  background-color: none;
+} 
+.flex-covid div
+ {
+  background-color: none;
+  color: black;
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  font-family:'Quicksand';
+}
+ 
+ a.one:hover 
+ {
+  color:red;
+ }
+a.one:active
+{
+  color:lightgrey;
+}
+
+
+img.logo /*Logo of the website*/
+{
+  margin-left: 0;
+  margin-right: auto;
+
+}
+.body
+{
+ text-align: center;
+  font-family:'Quicksand';
+  
+  word-spacing:.5em;
+
+}
+
+.box
+{
+  width: 50%;
+  font-family:'Quicksand';
+  font-size:30px;
+  margin:auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.login
+{
+  margin-top:200px;
+  margin-left:600px;
+}
+
+.box1
+{
+  width:20%;
+  font-size: 25px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 170px;
+  cursor: pointer;
+  font-family: 'Quicksand';
+
+}
+
+.s{
+
+  margin-left: 780px;
+  font-family: 'Quicksand';
+}
+
+a.two
+{
+  color: blue;
+}
+
+a.two:hover 
+{
+  color:red;
+ }
+
+a.two:active
+{
+  color:lightgrey;
+}
+
+.dropbtn /*Dropdown in NavBar*/
+{
+  background-color: hsla(132,32%,51%,0.2);
+  color: black;
+  padding: 16px;
+  font-size: 15px;
+  font-family: 'Quicksand'; 
+  border: none;
+  cursor: pointer;
+
+}
+
+.dropdown 
+{
+  position: relative;
+  display: inline-block;
+  margin-top:16px;
+
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'Quicksand'; 
+}
+
+.dropdown-content a 
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+.dropdown:hover .dropbtn 
+{
+  background-color: none;
+}
+
+.submit1 [type=submit] /*Submit Button*/
+{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 1150px;
+  margin-top: 10px; 
+}
+
+.submit1 [type=submit]:hover 
+{
+  background-color: #45a049;
+}
+
+.row
+{
+  margin-left: 670px;
+  margin-top: 70px;
+}
+
+.col-25
+{
+  font-family:'Quicksand';
+  font-size: 30px;
+  text-align: left;
+}
+
+.col-75
+{
+  float: center;
+}
+
+#subject
+{
+  font-family:'Quicksand';
+  font-size: 18px;
+}
+
+#BED /*Bed availiability table*/
+{
+  font-family: 'Quicksand';
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#BED td, #BED th 
+{
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#BED tr:nth-child(even){background-color: #f2f2f2;}
+
+#BED tr:hover {background-color: lavender;}
+
+#BED th 
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: hsla(132,32%,51%,0.2);
+  color: black;
+}
+
+a.three
+{
+  color: blue;
+}
+
+div.gallery /* Picture Gallery*/
+{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery:hover 
+{
+  border: 1px solid #777;
+}
+
+div.gallery img
+ {
+  width: 100%;
+  height: auto;
+}
+
+div.desc 
+{
+  padding: 15px;
+  text-align: center;
+  font-family: 'Quicksand';
+
+}
+
+.container2
+{
+  margin-left: 350px;
+  margin-top: 100px;
+}
+
+
+div.oxi 
+{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 270px;
+}
+
+div.oxi:hover 
+{
+  border: 1px solid #777;
+}
+div.oxi img
+ {
+  width: 100%;
+  height: auto;
+}
+
+#OXYGEN /*Oxygen availiability*/
+{
+  font-family: 'Quicksand';
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#OXYGEN td, #OXYGEN th 
+{
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#OXYGEN tr:nth-child(even){background-color: #f2f2f2;}
+
+#OXYGEN tr:hover {background-color: lavender;}
+
+#OXYGEN th
+ {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: hsla(132,32%,51%,0.2);
+  color: black;
+}
+.loginu{ 
+  margin-top:200px;
+  margin-left:630px
+
+}
+.box2{
+  width: 50%;
+  font-family:'Quicksand';
+  font-size:30px;
+  margin:auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.box3{width:20%;
+  font-size: 25px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 170px;
+  cursor: pointer;
+  font-family: 'Quicksand';
+
+
+}
+.box10{width:20%;
+  font-size: 25px;
+  background-color: #4CAF50;
+  border: none;
+  
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 170px;
+  cursor: pointer;
+  font-family: 'Quicksand';
+
+
+}
+#sub{
+  font-family: 'Quicksand';
+  color: white;
+  text-align: center;
+
+
+}
+a.h1 
+ { 
+   text-decoration: none;
+   color: white;
+ }
+
+a.h1:hover
+ { color: #f4f4f4; }
+
+a.h1:active
+ { color: lightgrey; }
+ 
+
+ 
+ div.oxygen/* Picture Gallery*/
+{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 223px;
+  margin-left: 5px;
+  margin-top:10px;
+}
+
+div.oxygen:hover 
+{
+  border: 1px solid #777;
+}
+
+div.oxygen img
+ {
+  width: 100%;
+  height: auto;
+}
+  div.eq /* Picture Gallery*/
+{
+  margin: 5px;
+  
+  margin-left: 0;
+  border: 1px solid #ccc;
+  float: left;
+  width: 215px;
+}
+
+div.eq:hover 
+{
+  border: 1px solid #777;
+}
+
+div.eq img
+ {
+  width: 100%;
+  height: auto;
+}div.furn /* Picture Gallery*/
+{
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 287px;
+}
+
+div.furn:hover 
+{
+  border: 1px solid #777;
+}
+
+div.furn img
+ {
+  width: 100%;
+  height: auto;
+}div.cloth /* Picture Gallery*/
+{
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 115px;
+  
+}
+
+div.cloth:hover 
+{
+  border: 1px solid #777;
+}
+
+div.cloth img
+ {
+  width: 100%;
+  height: auto;
+}div.biotech /* Picture Gallery*/
+{
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.biotech:hover 
+{
+  border: 1px solid #777;
+}
+
+div.biotech img
+ {
+  width: 100%;
+  height: auto;
+}div.waste /* Picture Gallery*/
+{
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 340px;
+}
+
+div.waste:hover 
+{
+  border: 1px solid #777;
+}
+
+div.waste img
+ {
+  width: 100%;
+  height: auto;
+}
+.container4{
+  margin-left: 330px;
+  margin-top: 150px;
+}
+.container3{
+   margin-left: 200px;
+  margin-top: 100px;
+}
+
+  
